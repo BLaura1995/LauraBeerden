@@ -1,0 +1,30 @@
+@media screen and (max-width: 800px) {
+    body {
+        background-color: olive;
+        color: white;
+    }
+    .container {
+        width: 100%;
+    }
+    .container img {
+        width: 70%;
+        margin: 0 auto;
+        /* text-align: center; */
+    }
+    .intro {
+        margin-top: 20px;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container img {
+        width: 100%;
+        margin: 0 auto;
+        /* text-align: center; */
+    }
+    .intro {
+        font-size: 0.5rem;
+        margin-left: 10px;
+    }
+}
