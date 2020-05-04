@@ -5,25 +5,25 @@
     }
     
     body {
-        background: green;
         font-family: 'Gothic A1', sans-serif;
     }
     
     .container {
         display: grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 40% 40% 40%;
         width: 100%;
         margin: 0 auto;
         background: #756F9D;
-        position: fixed;
-        left: 0;
-        top: 0;
     }
     
     .container #logo {
-        width: 15%;
-        margin-top: 70px;
-        margin-right: 10px;
+        width: 22%;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    
+    .container #zin {
+        width: 40%;
     }
     
     .intro {
@@ -33,45 +33,41 @@
         font-size: 2rem;
     }
     
-    .intro p {
-        font-size: 1.5rem;
-        padding-top: 20px;
+    nav {
+        list-style-type: none;
+        /* width: 10%; */
+        background-color: red
     }
     
-    .section1 {
-        height: 100vh;
-        width: 100%;
-        margin: 0 auto;
-        background: red;
-        background-image: url("img/c088a366-d752-4bc2-8346-37779298cced.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        opacity: 0;
-        overflow: hidden;
+    nav li {
+        padding: 5px;
     }
     
-    .inhoud1 {
+    nav li:hover {
+        background-color: grey;
+    }
+    
+    section {
         display: grid;
-        grid-template-columns: 40% 40%;
+        grid-template-columns: 30% 70%;
         grid-gap: 10%;
-        background-color: green;
-        width: 80%;
-        margin: 0 auto;
-        color: white;
+        background: #756F9D;
+        font-size: 1rem;
+        padding: 5px;
+        margin-top: 20px;
     }
     
-    .section1 h1 {
-        text-align: center;
-        padding: 20px 10px;
+    #myprofile {
+        width: 20%;
+        border-right: 2px solid white;
+        padding-right: 20px;
     }
     
-    .data {
-        text-align: center;
-        margin-left: 20px;
+    .hide {
+        display: none;
     }
     
-    .text {
-        text-align: center;
-        border-left: 2px solid white;
-        padding-left: 20px;
+    .contact:hover #contact {
+        display: block;
+        color: red;
     }
