@@ -9,65 +9,19 @@
     }
     
     .container {
-        display: grid;
-        grid-template-columns: 40% 40% 40%;
-        width: 100%;
-        margin: 0 auto;
-        background: #756F9D;
+        height: 100vh;
+        background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
-    .container #logo {
-        width: 22%;
-        margin-top: 50px;
-        margin-left: 50px;
-    }
-    
-    .container #zin {
-        width: 40%;
-    }
-    
-    .intro {
-        margin-top: 70px;
-        margin-bottom: 70px;
-        color: white;
-        font-size: 2rem;
-    }
-    
-    nav {
-        list-style-type: none;
-        /* width: 10%; */
-        background-color: red
-    }
-    
-    nav li {
-        padding: 5px;
-    }
-    
-    nav li:hover {
-        background-color: grey;
-    }
-    
-    section {
-        display: grid;
-        grid-template-columns: 30% 70%;
-        grid-gap: 10%;
-        background: #756F9D;
-        font-size: 1rem;
-        padding: 5px;
-        margin-top: 20px;
-    }
-    
-    #myprofile {
+    #logo {
         width: 20%;
-        border-right: 2px solid white;
-        padding-right: 20px;
+        height: 30%;
     }
     
-    .hide {
-        display: none;
-    }
-    
-    .contact:hover #contact {
-        display: block;
-        color: red;
+    .section2 {
+        height: 100vh;
+        background-color: green;
     }
