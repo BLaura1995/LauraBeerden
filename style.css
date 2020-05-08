@@ -6,22 +6,30 @@
     
     body {
         font-family: 'Gothic A1', sans-serif;
-    }
-    
-    .container {
-        height: 100vh;
-        background-color: red;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        background-color: #FBE7E4;
     }
     
     #logo {
-        width: 20%;
-        height: 30%;
+        width: 10%;
+        height: 20%;
+        margin: 10px;
+    }
+    
+    .intro {
+        padding-left: 130px;
+    }
+    
+    p {
+        font-size: 1.5rem;
     }
     
     .section2 {
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
         height: 100vh;
-        background-color: green;
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 20px;
+        background-color: white;
     }

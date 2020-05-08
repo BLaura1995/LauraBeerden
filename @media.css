@@ -5,15 +5,14 @@
     }
     .container {
         width: 100%;
+        padding-bottom: 10px;
     }
     .container #logo {
-        width: 100%;
-        margin: 0 auto;
-        /* text-align: center; */
+        width: 20%;
+        margin-top: 10px;
     }
     .intro {
         margin-top: 20px;
-        text-align: left;
     }
 }
 
@@ -24,7 +23,7 @@
         /* text-align: center; */
     }
     .intro {
-        font-size: 0.5rem;
+        font-size: 0.75rem;
         margin-left: 10px;
     }
 }
