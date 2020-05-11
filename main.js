@@ -1,6 +1,7 @@
 $(document).ready(function() {
+    $("#sectionUp").hide();
     $(".btn1").click(function() {
-        $("#sectionUp").slideToggle('slow');
-        // $('.section').css('opacity', '0')
+        $("#sectionUp").slideDown('slow');
+
     });
 });
