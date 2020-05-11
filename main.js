@@ -1,9 +1,6 @@
 $(document).ready(function() {
-    //rotate
-    $(window).scroll(function() {
-        $('.container').css({ "height": "10%" });
-        $('#logo').css({ "height": "10%" });
-
+    $(".btn1").click(function() {
+        $("#sectionUp").slideToggle('slow');
+        // $('.section').css('opacity', '0')
     });
-
 });
