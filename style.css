@@ -9,22 +9,27 @@
         background-color: #FBE7E4;
     }
     
-    .section {
-        height: 90vh;
-        width: 70%;
+    .kop {
+        width: 80%;
+        background: green;
         margin: 0 auto;
-        margin-top: 20px;
         background-color: white;
-        display: flex;
-        align-items: center;
         box-shadow: 5px 10px #888888;
     }
     
-    .midden {
-        width: 60%;
+    .btn1 {
+        text-align: center;
+    }
+    
+    .section {
+        height: 80vh;
+        width: 70%;
         margin: 0 auto;
+        margin-top: 20px;
         display: flex;
         align-items: center;
+        justify-content: center;
+        align-content: center;
     }
     
     #logo {
