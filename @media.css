@@ -1,13 +1,14 @@
         @media screen and (max-width: 600px) {
-        .section #logo {
-            width: 20%;
-            height: 20%;
-        }
-        .intro {
-            font-size: 0.6rem;
-            padding-left: 70px;
-            line-height: 1.5rem;
-        }
-        .intro p {
-            font-size: 14px;
+            .section #logo {
+                width: 20%;
+                height: 20%;
+            }
+            .intro {
+                font-size: 0.6rem;
+                padding-left: 70px;
+                line-height: 1.5rem;
+            }
+            .intro p {
+                font-size: 14px;
+            }
         }
