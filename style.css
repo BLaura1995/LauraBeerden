@@ -11,14 +11,17 @@
     
     .kop {
         width: 80%;
-        background: green;
         margin: 0 auto;
         background-color: white;
         box-shadow: 5px 10px #888888;
     }
     
     .btn1 {
+        padding: 1em;
         text-align: center;
+        display: inline-block;
+        text-decoration: none;
+        margin: 0 auto;
     }
     
     .section {
