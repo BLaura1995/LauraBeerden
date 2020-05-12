@@ -6,29 +6,32 @@
     
     body {
         font-family: 'Gothic A1', sans-serif;
-        background-color: #FBE7E4;
+        background-color: #f9eeed;
     }
     
     .kop {
-        width: 80%;
-        margin: 0 auto;
-        background-color: white;
-        box-shadow: 5px 10px #888888;
-    }
-    
-    .btn1 {
-        padding: 1em;
-        text-align: center;
-        display: inline-block;
-        text-decoration: none;
-        margin: 0 auto;
+        width: 70%;
+        margin: 20px auto;
+        background-color: #f2f2f2;
+        box-shadow: 20px 20px 50px 15px rgba(31, 57, 106, 0.4);
     }
     
     .section {
-        height: 80vh;
+        height: 70vh;
         width: 70%;
         margin: 0 auto;
         margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .sectionBtn {
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 20px;
+        padding-bottom: 20px;
         display: flex;
         align-items: center;
         justify-content: center;
