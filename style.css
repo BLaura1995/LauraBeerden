@@ -1,100 +1,76 @@
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    
-    body {
-        font-family: 'Gothic A1', sans-serif;
-        background-color: #f9eeed;
-    }
-    
-    .kop {
-        width: 70%;
-        margin: 70px auto;
-        background-color: #f2f2f2;
-        box-shadow: 20px 20px 50px 15px rgba(31, 57, 106, 0.4);
-    }
-    
-    .d-flex {
-        display: flex;
-    }
-    
-    .section {
-        height: 70vh;
-        width: 70%;
-        margin: 0 auto;
-        margin-top: 20px;
-        align-items: center;
-        justify-content: center;
-        align-content: center;
-    }
-    
-    .sectionBtn {
-        width: 70%;
-        margin: 0 auto;
-        margin-top: 20px;
-        padding-bottom: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        align-content: center;
-    }
-    
-    #logo {
-        width: 20%;
-        height: 30%;
-        margin: 10px;
-    }
-    
-    .intro {
-        padding-left: 130px;
-        line-height: 2.5rem;
-    }
-    
-    p {
-        font-size: 1.5rem;
-    }
-    
-    .minilogo {
-        width: 10%;
-        height: 10%;
-        padding-right: 50px;
-        padding-top: 20px;
-    }
-    
-    .foto {
-        width: 30%;
-        padding-right: 20px;
-        /* height: 20%; */
-    }
-    
-    .tekst {
-        width: 70%;
-        margin: 0 auto;
-        background: red;
-    }
-    
-    .contact {
-        text-align: center;
-        background: green;
-        margin: 0 auto;
-        line-height: 2.5rem;
-    }
-    
-    .contact h1 {
-        font-size: 1.7rem;
-    }
-    
-    .contact p {
-        margin-top: 10px;
-        text-align: center;
-        background-color: yellow;
-        font-size: 1.5rem;
-    }
-    
-    .fa,
-    .fa-phone-square {
-        width: 30px;
-        height: 30%;
-    }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Gothic A1', sans-serif;
+            background-color: #f9eeed;
+        }
+        
+        .kop {
+            width: 70%;
+            margin: 70px auto;
+            background-color: #f2f2f2;
+            box-shadow: 20px 20px 50px 15px rgba(31, 57, 106, 0.4);
+        }
+        
+        .d-flex {
+            display: flex;
+        }
+        
+        .section {
+            height: 70vh;
+            width: 70%;
+            margin: 0 auto;
+            margin-top: 20px;
+            align-items: center;
+            justify-content: center;
+            align-content: center;
+        }
+        
+        .sectionBtn {
+            width: 70%;
+            margin: 0 auto;
+            margin-top: 20px;
+            padding-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            align-content: center;
+        }
+        
+        #logo {
+            width: 20%;
+            height: 30%;
+            margin: 10px;
+        }
+        
+        .intro {
+            padding-left: 130px;
+            line-height: 2.5rem;
+        }
+        
+        p {
+            font-size: 1.5rem;
+        }
+        
+        .minilogo {
+            width: 5%;
+            height: 5%;
+            margin-top: 20px;
+            margin-left: 120px;
+        }
+        
+        .section2 {
+            height: 70vh;
+            width: 70%;
+            margin: 0 auto;
+            align-items: center;
+        }
+        
+        .section2 .foto {
+            width: 40%;
+            height: 60%;
+        }
