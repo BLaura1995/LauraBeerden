@@ -77,8 +77,5 @@
         background-image: url('img/LauraAangepast.png');
         background-size: cover;
         background-position: center center;
-    }
-    
-    .section2 h1 {
-        text-decoration: underline;
+        margin-left: 10px;
     }
