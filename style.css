@@ -75,6 +75,7 @@
     
     .section2 .foto {
         background-image: url('img/LauraAangepast.png');
-
-        margin-left: 10px;
+        background-position: center center;
+        background-size: cover;
+        margin-left: 20px;
     }
