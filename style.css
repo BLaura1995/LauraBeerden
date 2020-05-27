@@ -11,23 +11,28 @@
     
     .kop {
         width: 70%;
-        margin: 70px auto;
+        max-width: 1200px;
+        margin: 4rem auto;
         background-color: #f2f2f2;
+-webkit-box-shadow:20px 20px 50px 15px rgba(31, 57, 106, 0.4);
         box-shadow: 20px 20px 50px 15px rgba(31, 57, 106, 0.4);
     }
     
-    .d-flex {
+    .d-flex { display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
     
     .section {
-        height: 70vh;
+        height: 400px;
         width: 70%;
         margin: 0 auto;
         margin-top: 20px;
-        align-items: center;
-        justify-content: center;
-        align-content: center;
+        padding:5vw;
+        display: -ms-grid;
+        display:grid;
+        -ms-grid-columns: minmax(150px, 1fr) minmax(250,3fr);
+        gap: 10vh;
     }
     
     .sectionBtn {
