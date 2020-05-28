@@ -1,71 +1,125 @@
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    
-    body {
-        font-family: 'Gothic A1', sans-serif;
-        background-color: #f9eeed;
-    }
-    
-    .kop {
-        width: 70%;
-        max-width: 1200px;
-        min-height:400px;
-        margin: 4rem auto;
-        background-color: #f2f2f2;
--webkit-box-shadow:20px 20px 50px 15px rgba(31, 57, 106, 0.4);
-        box-shadow: 20px 20px 50px 15px rgba(31, 57, 106, 0.4);
-    }
-    .section {
-        display: grid;
-        grid-template-columns: minmax(150px,1fr) minmax(250px,3fr);
-        grid-gap:10vw;
-        margin: 0 auto;
-        padding: 5vw; 
-        
-      
-    }
-    .section #logo{
-   
-        margin-left: 2rem;
-        background:red;
-       
-    }
+.button {
+    margin: 1rem;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.3rem;
+    border: 2px solid #203a6c;
+    color: #203a6c;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    -webkit-transition: 1s ease all;
+    transition: 1s ease all;
+  }
   
+  .button:hover {
+    background-color: #142545;
+    color: white;
+  }
   
-    
-   .section .intro {
-    background-color: green;
-        margin-top: 10px;
-}
-
-    
-    p {
-        font-size: 1.5rem;
-    }
-    
-    .minilogo {
-        width: 5%;
-        height: 5%;
-        margin-top: 20px;
-        margin-left: 120px;
-    }
-    
-    .section2 {
-        height: 70vh;
-        width: 70%;
-        margin: 0 auto;
-        display: grid;
+  * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Jost", sans-serif;
+    background-color: #f9eeed;
+    color: #4b4b4b;
+  }
+  
+  .kop {
+    width: 90%;
+    max-width: 1200px;
+    margin: 4rem auto;
+    background-color: #f2f2f2;
+    -webkit-box-shadow: 20px 20px 50px 15px rgba(31, 57, 106, 0.4);
+            box-shadow: 20px 20px 50px 15px rgba(31, 57, 106, 0.4);
+  }
+  
+  .d-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .section {
+    min-height: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 5vw;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: minmax(150px, 1fr) minmax(250px, 3fr);
+        grid-template-columns: minmax(150px, 1fr) minmax(250px, 3fr);
+    grid-gap: 10vw;
+  }
+  
+  .sectionBtn {
+    text-align: center;
+  }
+  
+  #logo {
+    height: auto;
+    width: 100%;
+  }
+  
+  .intro {
+    line-height: 2.5rem;
+  }
+  
+  .intro h1 {
+    font-weight: bold;
+    font-family: "Noto Sans JP", sans-serif;
+  }
+  
+  .intro h2 {
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+  }
+  
+  .intro p span {
+    position: relative;
+    margin-bottom: -0.3rem;
+    font-style: italic;
+    font-family: "Noto Serif", serif;
+    letter-spacing: 5px;
+    margin-left: 0.5rem;
+  }
+  
+  p {
+    font-size: 1.5rem;
+  }
+  
+  .minilogo {
+    width: 5%;
+    height: 5%;
+    margin-top: 20px;
+    margin-left: 120px;
+  }
+  
+  .section2 {
+    height: 70vh;
+    width: 70%;
+    margin: 0 auto;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 2fr 3fr;
         grid-template-columns: 2fr 3fr;
-        grid-gap: 2rem;
-        padding-bottom: 10px;
-    }
-    
-    .section2 .foto {
-        background-image: url('img/LauraAangepast.png');
-        background-position: center center;
-        background-size: cover;
-        margin-left: 20px;
-    }
+    grid-gap: 2rem;
+    padding-bottom: 10px;
+  }
+  
+  .section2 .foto {
+    background-image: url("img/LauraAangepast.png");
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .section2 h1 {
+    text-decoration: underline;
+  }
+  /*# sourceMappingURL=style.css.map */
