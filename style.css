@@ -12,50 +12,35 @@
     .kop {
         width: 70%;
         max-width: 1200px;
+        min-height:400px;
         margin: 4rem auto;
         background-color: #f2f2f2;
 -webkit-box-shadow:20px 20px 50px 15px rgba(31, 57, 106, 0.4);
         box-shadow: 20px 20px 50px 15px rgba(31, 57, 106, 0.4);
     }
-    
-    .d-flex { display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-    }
-    
     .section {
-        height: 400px;
-        width: 70%;
+        display: grid;
+        grid-template-columns: minmax(150px,1fr) minmax(250px,3fr);
+        grid-gap:10vw;
         margin: 0 auto;
-        margin-top: 20px;
-        padding:5vw;
-        display: -ms-grid;
-        display:grid;
-        -ms-grid-columns: minmax(150px, 1fr) minmax(250,3fr);
-        gap: 10vh;
+        padding: 5vw; 
+        
+      
     }
+    .section #logo{
+   
+        margin-left: 2rem;
+        background:red;
+       
+    }
+  
+  
     
-    .sectionBtn {
-        width: 70%;
-        margin: 0 auto;
-        margin-top: 20px;
-        padding-bottom: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        align-content: center;
-    }
-    
-    #logo {
-        width: 20%;
-        height: 30%;
-        margin: 10px;
-    }
-    
-    .intro {
-        padding-left: 130px;
-        line-height: 2.5rem;
-    }
+   .section .intro {
+    background-color: green;
+        margin-top: 10px;
+}
+
     
     p {
         font-size: 1.5rem;
